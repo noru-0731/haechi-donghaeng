@@ -36,7 +36,7 @@
 ## 만든 방법
 
 - Next.js 16, React 19, TypeScript, Anthropic SDK(Claude Haiku), zod.
-- 화면 틀은 앞서 만든 누구나 신라(경주 관광지 무장애 안내)의 KRDS 기반 틀을 가져와 내용을 청년 지원으로 바꿨습니다.
+- 화면 틀은 앞서 만든 [누구나 신라](https://github.com/noru-0731/sillaforall)(경주 관광지 무장애 안내)의 KRDS 기반 틀을 가져와 내용을 청년 지원으로 바꿨습니다.
 - 해치 그림은 서울시가 공개한 해치 응용동작 자료에서 자른 것입니다.
 - 기획과 구현은 AI 코딩 도구(Claude Code)로 진행했고, 시험 문장 일부와 기획 검토는 팀이 함께 했습니다.
 
