@@ -1,0 +1,855 @@
+[
+ {
+  "id": "isolation-4 첫 턴 1",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방 밖에 나가지 않고 가족과도 말을 안 하고 지내셨다니 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방 밖에 나가지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말을 하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1823
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 2",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방에서 나오지 못하고 가족과도 말을 나누지 않고 계셨다니, 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방에서 나오지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말을 하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1998
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 3",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방에서 나오지 못하고 가족과도 말을 안 하고 계시다니, 그동안 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방에서 나오지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1903
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 4",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방에서 나오지 않고 가족과도 말을 안 하고 계시는군요, 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방에서 나오지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 대화하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2303
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 5",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방 밖으로 나가지 않고 가족과도 말을 안 하고 지내셨다니, 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방 밖에 나가지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말을 하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1846
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 6",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방에서 나오지 못하고 가족과도 말을 나누지 않고 계셨다니 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방에서 나오지 않음"
+      },
+      {
+       "label": "가족과의 대화",
+       "value": "말을 하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2357
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 7",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방 밖에 나가지 않고 가족과도 말을 안 하고 지내셨다니, 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방 밖에 나가지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말을 하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1966
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 8",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방 밖에 나가지 않고 가족과도 말을 안 하고 계셨군요. 그렇게 지내느라 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방 밖에 나가지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말을 하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1925
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 9",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방에서 나오지 않고 가족과도 말을 나누지 않으셨다니, 그동안 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 여쭤봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방에서 나오지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 말을 나누지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1888
+   }
+  ]
+ },
+ {
+  "id": "isolation-4 첫 턴 10",
+  "logs": [
+   {
+    "user": "방에서 몇달째 안나오고 잇어요 가족이랑도 말 안해요",
+    "out": {
+     "reply": "몇 달째 방에서 나오지 않고 가족과도 말을 안 하고 계시다니, 그렇게 지내느라 많이 지치셨겠어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "몇 달째 방에서 나오지 않음"
+      },
+      {
+       "label": "가족과의 관계",
+       "value": "가족과 대화하지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1950
+   }
+  ]
+ },
+ {
+  "id": "isolation-5 1",
+  "logs": [
+   {
+    "user": "은둔형 외톨이도 받아주는 데가 있나요",
+    "out": {
+     "reply": "은둔이나 고립 상황으로 도움을 받을 수 있는 곳이 있어요. 괜찮다면 지금 상황을 몇 가지만 더 여쭤봐도 될까요? 답하기 싫은 건 넘어가셔도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": true,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2051
+   },
+   {
+    "user": "네 좋아요",
+    "out": {
+     "reply": "감사해요. 몇 달째 집 밖에 거의 나가지 않으셨는지, 그렇게 지내신 기간도 알려주실 수 있을까요? 그리고 나이와 서울에 사시는지도 같이 알려주시면 맞는 곳을 찾아드릴게요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "몇 달째 그래요",
+      "반년 넘었어요",
+      "나이와 사는 곳은 말할게요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "집 밖에 거의 나가지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1918
+   },
+   {
+    "user": "서른하나요. 관악구 살아요",
+    "out": {
+     "reply": "알려주셔서 감사해요. 서른한 살이시고 서울 관악구에 사시니, 고립이나 은둔 상황에서 이용할 수 있는 곳을 찾아볼게요. 서울청년기지개센터는 만 19~39세 서울 거주 청년을 위한 곳이라 맞으실 것 같아요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "신청 방법 알려줘",
+      "다른 곳도 보여줘"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "요즘 생활",
+       "value": "집 밖에 거의 나가지 않음"
+      },
+      {
+       "label": "나이",
+       "value": "31세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울 관악구"
+      }
+     ],
+     "profile": {
+      "age": 31,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 서른한 살이라 대상 나이(19~39세)에 들고, 집 밖에 거의 나가지 않는 상황이라 맞을 수 있어요."
+      },
+      {
+       "id": "s08",
+       "reason": "외로움이나 고립이 힘들 때 365일 24시간 전문 상담사와 통화할 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": "저는 서울 관악구에 사는 31세이고, 집 밖에 거의 나가지 않는 생활을 하고 있습니다. 이런 상황에서 도움을 받을 수 있는 서비스를 알아보고 있습니다."
+    },
+    "ms": 3010
+   }
+  ]
+ },
+ {
+  "id": "isolation-5 2",
+  "logs": [
+   {
+    "user": "은둔형 외톨이도 받아주는 데가 있나요",
+    "out": {
+     "reply": "은둔 상태로 지내는 분들을 도와주는 곳이 있어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": true,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1992
+   },
+   {
+    "user": "네 좋아요",
+    "out": {
+     "reply": "고맙습니다. 그럼 먼저 요즘 생활이 어떠신지, 그렇게 지낸 기간이 어느 정도인지 여쭤봐도 될까요? 나이와 사는 곳도 이어서 여쭤볼게요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "몇 달째 집에 있어요",
+      "1년 넘었어요",
+      "말하기 어려워요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1819
+   },
+   {
+    "user": "서른하나요. 관악구 살아요",
+    "out": {
+     "reply": "알려 주셔서 고맙습니다. 서울 관악구에 사시는 서른한 살이시네요. 서울청년기지개센터는 오래 집에 머문 청년의 일상 회복을 돕는 곳이라 맞을 수 있어요. 외로움이 크실 땐 외로움안녕120에 전화해 5번을 누르면 밤에도 이야기를 나눌 수 있어요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "기지개센터 자세히 알려줘",
+      "외로움안녕120 번호 알려줘"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "나이",
+       "value": "31세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울 관악구"
+      }
+     ],
+     "profile": {
+      "age": 31,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 서른한 살이라 대상 나이(19~39세)에 들어요."
+      },
+      {
+       "id": "s08",
+       "reason": "서울 시민이면 나이 제한 없이 24시간 전화로 이야기를 나눌 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": "저는 서울 관악구에 사는 31세입니다. 요즘 집에 머무는 시간이 길어 도움을 받고 싶습니다."
+    },
+    "ms": 2677
+   }
+  ]
+ },
+ {
+  "id": "isolation-5 3",
+  "logs": [
+   {
+    "user": "은둔형 외톨이도 받아주는 데가 있나요",
+    "out": {
+     "reply": "은둔이나 고립 상태에 계신 분을 도울 수 있는 곳이 있어요. 혹시 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": true,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2043
+   },
+   {
+    "user": "네 좋아요",
+    "out": {
+     "reply": "감사해요. 먼저 요즘 어떻게 지내고 계신지, 그렇게 지낸 지 얼마나 됐는지 알려 주실 수 있을까요? 답하기 싫으면 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "몇 달째 집에만 있어요",
+      "1년 넘었어요",
+      "말하기 어려워요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1656
+   },
+   {
+    "user": "서른하나요. 관악구 살아요",
+    "out": {
+     "reply": "말해 주셔서 고마워요. 서른한 살에 서울 관악구에 사시는 거군요. 서울에 사시고 이 나이면 서울청년기지개센터가 맞을 수 있어요. 고립이나 은둔 상태에 있는 청년의 일상 회복을 돕는 곳이고, 평일에 방문해 상담받을 수 있어요. 외로움안녕120도 밤낮없이 전화로 이야기 나눌 수 있어요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "기지개센터 더 알려줘",
+      "신청 방법 알려줘"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "나이",
+       "value": "31세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울 관악구"
+      }
+     ],
+     "profile": {
+      "age": 31,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 31세라 대상 나이(19~39세)에 들어요. 고립·은둔 청년을 돕는 전담기관이에요."
+      },
+      {
+       "id": "s08",
+       "reason": "서울 시민이면 나이 제한 없이 24시간 전화로 외로움 상담을 받을 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": "저는 서울 관악구에 사는 31세이고, 요즘 생활과 기간을 나누었습니다. 청년 고립 지원 기관을 알아보고 있습니다."
+    },
+    "ms": 3142
+   }
+  ]
+ },
+ {
+  "id": "isolation-5 4",
+  "logs": [
+   {
+    "user": "은둔형 외톨이도 받아주는 데가 있나요",
+    "out": {
+     "reply": "은둔이나 고립을 겪는 분을 도울 수 있는 곳이 있어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": true,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1974
+   },
+   {
+    "user": "네 좋아요",
+    "out": {
+     "reply": "감사해요. 먼저 그렇게 지낸 기간이 어느 정도인지 여쭤봐도 될까요? 답하기 어려우면 넘어가도 괜찮아요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "몇 달 정도예요",
+      "1년 넘었어요",
+      "말하고 싶지 않아요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1542
+   },
+   {
+    "user": "서른하나요. 관악구 살아요",
+    "out": {
+     "reply": "알려 주셔서 고마워요. 서른한 살에 서울에 사시니, 서울청년기지개센터가 맞을 수 있어요. 오래 집에 머문 청년의 일상 회복을 돕는 곳이고, 상담과 프로그램, 방문상담도 있어요. 관악구 주민이라 사는 곳 센터 상담도 함께 알아보시면 좋아요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "신청 방법 알려줘요",
+      "센터 연락처 알려줘요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "미응답"
+      },
+      {
+       "label": "나이",
+       "value": "31세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울 관악구"
+      }
+     ],
+     "profile": {
+      "age": 31,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 서른한 살이라 대상 나이(19~39세)에 들어요."
+      },
+      {
+       "id": "s05",
+       "reason": "관악구 주민이라 사는 곳 자치구 정신건강복지센터에서 무료 상담을 받을 수 있어요."
+      },
+      {
+       "id": "s08",
+       "reason": "서울 시민이면 나이와 상관없이 외로움안녕120에서 통화로 이야기를 나눌 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 3247
+   }
+  ]
+ },
+ {
+  "id": "isolation-5 5",
+  "logs": [
+   {
+    "user": "은둔형 외톨이도 받아주는 데가 있나요",
+    "out": {
+     "reply": "은둔이나 고립으로 힘든 마음을 가진 분들을 도울 곳이 있어요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": true,
+     "memo": [],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1995
+   },
+   {
+    "user": "네 좋아요",
+    "out": {
+     "reply": "알겠어요, 고맙습니다. 먼저 몇 가지만 여쭐게요. 나이가 어떻게 되시고, 서울에 살고 계신가요? 답하기 싫으면 건너뛰셔도 괜찮아요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "스물일곱이고 서울 살아요",
+      "나이만 말할게요",
+      "답하기 싫어요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "은둔·고립 관련 도움"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1925
+   },
+   {
+    "user": "서른하나요. 관악구 살아요",
+    "out": {
+     "reply": "서른하나에 관악구에 살고 계시군요, 말해 주셔서 고마워요. 서울 청년이니 지원 대상을 찾아볼 수 있어요. 요즘 집 밖에 거의 나가지 않고 지내시는지도 여쭤봐도 될까요?",
+     "pose": "idea",
+     "stage": "explore",
+     "chips": [
+      "네, 그래요",
+      "조금 나가요",
+      "지금은 말하기 싫어요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "은둔·고립 관련 도움"
+      },
+      {
+       "label": "나이",
+       "value": "31세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울 관악구"
+      }
+     ],
+     "profile": {
+      "age": 31,
+      "lives_in_seoul": true
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2076
+   }
+  ]
+ }
+]

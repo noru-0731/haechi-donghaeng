@@ -1,0 +1,1060 @@
+[
+ {
+  "id": "demo1-3",
+  "logs": [
+   {
+    "user": "청년 월세 지원은 어디서 신청해요?",
+    "out": {
+     "reply": "청년 월세 지원은 주거 메뉴에서 찾을 수 있어요. 이 누리집에는 주거 지원 신청 절차가 따로 없어서, 서울 청년 정책을 모아 신청까지 할 수 있는 청년몽땅정보통에서 '청년월세 지원'을 검색해 보시면 좋아요. 정확한 조건과 기간은 120다산콜(02-120)에 물어보셔도 돼요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년몽땅정보통 가는 법",
+      "주거 메뉴 보기"
+     ],
+     "point_to": "menu-housing",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [
+      {
+       "id": "s20",
+       "reason": "서울 청년 정책을 모아 안내하고 온라인으로 신청할 수 있는 누리집으로, 청년월세 지원도 여기서 찾을 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2872,
+    "usage": {
+     "input": 151,
+     "output": 376,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "신청 조건은 어디서 봐요?",
+    "out": {
+     "reply": "신청 조건은 서비스마다 따로 있어요. 먼저 궁금한 지원을 찾으신 다음, 그 상세 쪽에서 대상 조건을 확인하시면 돼요. 화면에서는 많이 찾는 지원 목록을 보시거나 검색창에 지원 이름을 넣어 보세요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년 월세 지원 찾기",
+      "많이 찾는 지원 보기"
+     ],
+     "point_to": "popular",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      },
+      {
+       "label": "궁금한 것",
+       "value": "신청 조건 확인 방법"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": "장이 청년 월세 지원의 신청 조건을 확인하고 싶어 합니다."
+    },
+    "ms": 2042,
+    "usage": {
+     "input": 430,
+     "output": 318,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "고마워요, 글자도 좀 크게 보고 싶어요",
+    "out": {
+     "reply": "글자를 키우시려면 화면 위쪽의 설정 단추를 눌러 보세요. 글자 크기를 조절하실 수 있어요. 필요하시면 어두운 화면으로 바꾸는 것도 같은 곳에서 하실 수 있어요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년 월세 지원 다시 볼래요",
+      "다른 도움이 필요해요"
+     ],
+     "point_to": "settings",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      },
+      {
+       "label": "궁금한 것",
+       "value": "신청 조건 확인 방법"
+      },
+      {
+       "label": "요청",
+       "value": "글자 크기 키우기"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1935,
+    "usage": {
+     "input": 699,
+     "output": 288,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   }
+  ]
+ },
+ {
+  "id": "demo1-2",
+  "logs": [
+   {
+    "user": "청년 월세 지원은 어디서 신청해요?",
+    "out": {
+     "reply": "청년 월세 지원은 주거 메뉴에서 찾을 수 있어요. 이 누리집에는 주거 신청 안내가 따로 없어서, 서울 청년 정책을 모아 신청하는 청년몽땅정보통으로 이어 드릴게요. 궁금한 점은 120다산콜로도 물어볼 수 있어요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년몽땅정보통 알려 줘",
+      "120다산콜 번호가 뭐예요?"
+     ],
+     "point_to": "menu-housing",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [
+      {
+       "id": "s20",
+       "reason": "서울 청년 정책을 모아 안내하고 온라인으로 신청할 수 있는 누리집이라 청년 월세 지원 신청 경로로 맞아요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2902,
+    "usage": {
+     "input": 151,
+     "output": 347,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "신청 조건은 어디서 봐요?",
+    "out": {
+     "reply": "신청 조건은 각 지원 서비스의 상세 화면에서 대상 조건과 신청 방법을 확인할 수 있어요. 지금 화면에서는 주거 메뉴나 많이 찾는 지원 목록에서 서비스를 골라 들어가 보시면 돼요. 특정 서비스의 조건이 궁금하면 이름을 말씀해 주세요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "주거 메뉴 보기",
+      "많이 찾는 지원 보기"
+     ],
+     "point_to": "popular",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      },
+      {
+       "label": "관심사",
+       "value": "신청 조건 확인"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1945,
+    "usage": {
+     "input": 397,
+     "output": 295,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "고마워요, 글자도 좀 크게 보고 싶어요",
+    "out": {
+     "reply": "글자를 크게 보시려면 화면 위쪽의 설정 단추를 누르시면 돼요. 글자 크기를 바꾸는 메뉴가 있어요. 고맙습니다. 다른 궁금한 점도 편하게 말씀해 주세요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "다른 것도 궁금해요",
+      "괜찮아요, 고마워요"
+     ],
+     "point_to": "settings",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      },
+      {
+       "label": "관심사",
+       "value": "신청 조건 확인"
+      },
+      {
+       "label": "요청",
+       "value": "글자 크기 키우기"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2144,
+    "usage": {
+     "input": 678,
+     "output": 278,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   }
+  ]
+ },
+ {
+  "id": "demo1-1",
+  "logs": [
+   {
+    "user": "청년 월세 지원은 어디서 신청해요?",
+    "out": {
+     "reply": "청년 월세 지원은 주거 메뉴에서 찾을 수 있어요. 이 누리집 목록에는 신청 창구가 따로 없어서, 주거 메뉴를 누르신 뒤 청년몽땅정보통에서 정책 이름으로 검색해 신청하시면 돼요. 궁금한 점은 120다산콜(02-120)로 물어보셔도 됩니다.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "주거 메뉴 보기",
+      "120다산콜 번호 알려줘"
+     ],
+     "point_to": "menu-housing",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [
+      {
+       "id": "s20",
+       "reason": "청년 월세 지원 같은 주거 정책을 모아 안내하고 온라인으로 신청받는 누리집이에요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2841,
+    "usage": {
+     "input": 151,
+     "output": 341,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "신청 조건은 어디서 봐요?",
+    "out": {
+     "reply": "신청 조건은 각 서비스의 상세 쪽에서 대상 조건을 확인하실 수 있어요. 지금은 첫 화면이라, 먼저 찾으시는 분야를 누르거나 검색창에 정책 이름을 넣어 보세요. 청년 월세 지원이라면 주거 메뉴에서 찾으시면 됩니다.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "주거 메뉴 보기",
+      "검색으로 찾기"
+     ],
+     "point_to": "tile-housing",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      },
+      {
+       "label": "관심사",
+       "value": "신청 조건 확인"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2107,
+    "usage": {
+     "input": 414,
+     "output": 287,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "고마워요, 글자도 좀 크게 보고 싶어요",
+    "out": {
+     "reply": "네, 글자를 키우시려면 화면 위쪽의 설정 단추를 눌러 보세요. 거기서 글자 크기를 바꾸실 수 있어요. 다른 도움이 필요하시면 언제든 말씀해 주세요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "설정 어디 있어요?",
+      "다른 것도 알고 싶어요"
+     ],
+     "point_to": "settings",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "청년 월세 지원"
+      },
+      {
+       "label": "관심사",
+       "value": "신청 조건 확인"
+      },
+      {
+       "label": "요청",
+       "value": "글자 크게 보기"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2073,
+    "usage": {
+     "input": 691,
+     "output": 270,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   }
+  ]
+ },
+ {
+  "id": "demo2-1",
+  "logs": [
+   {
+    "user": "일자리 메뉴 어디 있어요?",
+    "out": {
+     "reply": "일자리 메뉴는 화면 위쪽 머리말에 있어요. 지금 바로 눌러 보실 수 있어요. 구직을 쉬고 계셨다면 청년도전지원사업을 먼저 알아보실 수 있어요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년도전지원사업 알려줘",
+      "다른 메뉴도 궁금해요"
+     ],
+     "point_to": "menu-job",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [
+      {
+       "id": "s14",
+       "reason": "일자리 메뉴에서 찾을 수 있는 대표 서비스라 먼저 안내드려요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2033,
+    "usage": {
+     "input": 148,
+     "output": 287,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "사실 요즘 거의 밖에 안 나가서 일 구하는 것도 엄두가 안 나요",
+    "out": {
+     "reply": "요즘 거의 밖에 안 나가신다니 일을 생각하는 것 자체가 부담되실 것 같아요. 괜찮다면 지금 상황을 몇 가지만 더 물어봐도 될까요? 답하기 싫은 건 넘어가도 돼요.",
+     "pose": "wink",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-job",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1690,
+    "usage": {
+     "input": 383,
+     "output": 274,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "네, 물어봐도 돼요",
+    "out": {
+     "reply": "알려 주셔서 고마워요. 먼저 나이를 여쭤봐도 될까요? 나이대만 말씀해 주셔도 괜찮아요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "20대예요",
+      "30대예요",
+      "답하기 싫어요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1834,
+    "usage": {
+     "input": 631,
+     "output": 224,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "1년 가까이 됐어요",
+    "out": {
+     "reply": "1년 가까이 그렇게 지내셨군요, 많이 지치셨을 것 같아요. 나이는 어떻게 되시는지 여쭤봐도 될까요? 나이대만 말씀해 주셔도 괜찮아요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "20대예요",
+      "30대예요",
+      "말하기 싫어요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "1년 가까이"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1909,
+    "usage": {
+     "input": 833,
+     "output": 280,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "스물일곱이고 서울 살아요",
+    "out": {
+     "reply": "스물일곱에 서울에 살고 계시군요, 알려 주셔서 고마워요. 1년 가까이 집 근처에만 머무르셨다면 서울청년기지개센터가 맞을 수 있어요. 이곳은 오래 집에 머문 청년이 일상을 회복하도록 돕는 곳이에요. 대상 여부는 기관이 확인해서 정해요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "신청 방법 알려 주세요",
+      "다른 곳도 보고 싶어요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "1년 가까이"
+      },
+      {
+       "label": "나이",
+       "value": "27세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울"
+      }
+     ],
+     "profile": {
+      "age": 27,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 스물일곱이라 대상 나이(19~39세)에 들고, 1년 가까이 거의 집에서 지냈다고 하셨어요."
+      }
+     ],
+     "crisis": false,
+     "summary": "저는 서울에 사는 27세이고, 1년 가까이 거의 집 밖에 나가지 않고 지냈습니다. 일을 구하는 것이 엄두가 나지 않습니다."
+    },
+    "ms": 2622,
+    "usage": {
+     "input": 1094,
+     "output": 521,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   }
+  ]
+ },
+ {
+  "id": "demo2-3",
+  "logs": [
+   {
+    "user": "일자리 메뉴 어디 있어요?",
+    "out": {
+     "reply": "일자리 메뉴는 화면 위쪽 머리말에 있어요. 지금 바로 눌러 보실 수 있어요. 구직을 쉬고 계신 청년이라면 청년도전지원사업도 함께 살펴보시면 좋아요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년도전지원사업 알려줘",
+      "다른 메뉴도 알려줘"
+     ],
+     "point_to": "menu-job",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [
+      {
+       "id": "s14",
+       "reason": "일자리 메뉴에서 바로 찾을 수 있는 구직 지원 사업이에요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1931,
+    "usage": {
+     "input": 148,
+     "output": 286,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "사실 요즘 거의 밖에 안 나가서 일 구하는 것도 엄두가 안 나요",
+    "out": {
+     "reply": "말씀해 주셔서 고마워요. 요즘 많이 지치셨겠어요. 괜찮으시다면 지금 상황을 몇 가지만 더 여쭤봐도 될까요? 답하기 싫은 건 넘어가셔도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "none",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2105,
+    "usage": {
+     "input": 386,
+     "output": 265,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "네, 물어봐도 돼요",
+    "out": {
+     "reply": "고맙습니다. 그럼 하나씩 여쭤볼게요. 밖에 거의 나가지 않으신 기간이 어느 정도 되셨는지 알려 주실 수 있을까요?",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "몇 달 정도예요",
+      "반년 넘었어요",
+      "1년 넘었어요",
+      "답하기 싫어요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1715,
+    "usage": {
+     "input": 625,
+     "output": 256,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "1년 가까이 됐어요",
+    "out": {
+     "reply": "1년 가까이 그렇게 지내셨군요. 많이 힘드셨겠어요. 나이나 사는 곳도 알려 주시면 맞는 지원을 더 정확히 찾아 볼 수 있어요. 나이는 몇 살이신가요?",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "스무 살 중반이에요",
+      "서른 살 이상이에요",
+      "답하기 싫어요"
+     ],
+     "point_to": "none",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "1년 가까이"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2029,
+    "usage": {
+     "input": 841,
+     "output": 300,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "스물일곱이고 서울 살아요",
+    "out": {
+     "reply": "스물일곱에 서울에 사시는군요, 말씀 고마워요. 이 나이와 거주지라면 서울청년기지개센터에서 밖에 나가기 어려운 청년의 일상 회복을 도와주고 있어요. 상담이나 일경험 프로그램도 있으니 한번 살펴보세요. 센터 문의는 02-6953-2520이에요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "기지개센터 더 알아볼래요",
+      "일자리 쪽도 알고 싶어요"
+     ],
+     "point_to": "menu-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "1년 가까이"
+      },
+      {
+       "label": "나이",
+       "value": "27세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울"
+      }
+     ],
+     "profile": {
+      "age": 27,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 스물일곱이라 대상 나이(19~39세)에 들고, 1년 가까이 거의 집에서 지냈다고 하셨어요."
+      },
+      {
+       "id": "s14",
+       "reason": "스물일곱이고 구직을 엄두내지 못하고 계셔서, 사회 진입 프로그램을 알아볼 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": "저는 서울에 사는 27세이고, 1년 가까이 거의 집에서 지내 왔습니다. 일을 다시 시작하는 것을 알아보고 싶습니다."
+    },
+    "ms": 3410,
+    "usage": {
+     "input": 1110,
+     "output": 580,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   }
+  ]
+ },
+ {
+  "id": "demo2-2",
+  "logs": [
+   {
+    "user": "일자리 메뉴 어디 있어요?",
+    "out": {
+     "reply": "일자리 메뉴는 화면 위쪽 머리말에 있어요. 지금 바로 눌러 보실 수 있어요. 구직을 쉬고 계신 청년이라면 청년도전지원사업을 먼저 살펴보시면 좋아요.",
+     "pose": "point",
+     "stage": "general",
+     "chips": [
+      "청년도전지원사업 알려줘",
+      "다른 메뉴도 보고 싶어"
+     ],
+     "point_to": "menu-job",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [
+      {
+       "id": "s14",
+       "reason": "일자리 메뉴에서 신청할 수 있는 대표 서비스라서 먼저 안내드려요."
+      }
+     ],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 2080,
+    "usage": {
+     "input": 148,
+     "output": 293,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "사실 요즘 거의 밖에 안 나가서 일 구하는 것도 엄두가 안 나요",
+    "out": {
+     "reply": "말씀해 주셔서 고마워요. 요즘 많이 지치셨겠어요. 괜찮으시다면 지금 상황을 몇 가지만 더 여쭤봐도 될까요? 답하기 싫은 건 넘어가셔도 돼요.",
+     "pose": "listen",
+     "stage": "consent",
+     "chips": [
+      "네, 물어봐도 돼요",
+      "지금은 괜찮아요"
+     ],
+     "point_to": "menu-job",
+     "ask_consent": true,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "구직",
+       "value": "엄두가 나지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1816,
+    "usage": {
+     "input": 387,
+     "output": 291,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "네, 물어봐도 돼요",
+    "out": {
+     "reply": "알려 주셔서 고마워요. 먼저 여쭤볼게요. 밖에 거의 나가지 않으신 지는 얼마나 되셨어요?",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "반년 넘게",
+      "몇 달 정도",
+      "잘 모르겠어요"
+     ],
+     "point_to": "tile-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "구직",
+       "value": "엄두가 나지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1991,
+    "usage": {
+     "input": 652,
+     "output": 278,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "1년 가까이 됐어요",
+    "out": {
+     "reply": "1년 가까이 그렇게 지내셨다니, 많이 힘드셨겠어요. 나이나 사는 곳도 알려 주실 수 있을까요? 답하기 싫으시면 넘어가셔도 괜찮아요.",
+     "pose": "listen",
+     "stage": "explore",
+     "chips": [
+      "스물일곱이에요",
+      "서울에 살아요",
+      "그냥 넘어갈게요"
+     ],
+     "point_to": "tile-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "1년 가까이"
+      },
+      {
+       "label": "구직",
+       "value": "엄두가 나지 않음"
+      }
+     ],
+     "profile": {
+      "age": null,
+      "lives_in_seoul": null
+     },
+     "recommend": [],
+     "crisis": false,
+     "summary": ""
+    },
+    "ms": 1998,
+    "usage": {
+     "input": 881,
+     "output": 316,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   },
+   {
+    "user": "스물일곱이고 서울 살아요",
+    "out": {
+     "reply": "알려 주셔서 고마워요. 스물일곱에 서울에 사시고, 1년 가까이 집에 주로 계셨던 거네요. 이런 상황에 맞춰 찾아볼 수 있는 곳이 있어요. 서울청년기지개센터는 오래 집에 머문 청년의 일상 회복을 돕는 곳이에요. 청년도전지원사업은 일을 다시 시작하고 싶을 때 살펴보시면 좋고, 외로움안녕120에 전화해 5번을 누르면 편하게 이야기도 나눌 수 있어요.",
+     "pose": "cheer",
+     "stage": "recommend",
+     "chips": [
+      "기지개센터 더 알아볼래요",
+      "일자리 쪽도 보고 싶어요"
+     ],
+     "point_to": "tile-relation",
+     "ask_consent": false,
+     "memo": [
+      {
+       "label": "찾는 것",
+       "value": "일자리 메뉴 위치"
+      },
+      {
+       "label": "요즘 생활",
+       "value": "거의 밖에 나가지 않음"
+      },
+      {
+       "label": "그렇게 지낸 기간",
+       "value": "1년 가까이"
+      },
+      {
+       "label": "나이",
+       "value": "27세"
+      },
+      {
+       "label": "사는 곳",
+       "value": "서울"
+      },
+      {
+       "label": "구직",
+       "value": "엄두가 나지 않음"
+      }
+     ],
+     "profile": {
+      "age": 27,
+      "lives_in_seoul": true
+     },
+     "recommend": [
+      {
+       "id": "s11",
+       "reason": "서울에 살고 스물일곱이라 대상 나이(19~39세)에 들고, 1년 가까이 거의 집에서 지냈다고 하셨어요."
+      },
+      {
+       "id": "s14",
+       "reason": "만 34세 이하이고 일을 엄두 내기 어렵다고 하셨는데, 구직을 쉬고 계신 청년이 사회 진입을 준비할 수 있는 프로그램이에요."
+      },
+      {
+       "id": "s08",
+       "reason": "서울 시민이면 나이 제한 없이 외로움 상담을 받을 수 있어요."
+      }
+     ],
+     "crisis": false,
+     "summary": "저는 서울에 사는 27세이고, 1년 가까이 거의 집에서 지냈습니다. 일을 다시 시작하는 것이 엄두가 나지 않습니다."
+    },
+    "ms": 3605,
+    "usage": {
+     "input": 1168,
+     "output": 745,
+     "cache_read": 12975,
+     "cache_write": 0
+    }
+   }
+  ]
+ }
+]

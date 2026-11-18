@@ -1,0 +1,6 @@
+.env*
+!.env.local.example
+node_modules
+.next
+tests/결과*
+.claude

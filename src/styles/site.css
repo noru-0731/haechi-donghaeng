@@ -1,0 +1,234 @@
+/* 해치동행 시제품의 덧붙임 CSS. 틀 CSS(globals.css, 앞선 공모전 사이트 것 그대로) 다음에 읽는다. 1rem = 10px.
+ * hd- 는 이 시제품이 더한 틀, hc- 는 해치 층(components/haechi/haechi.css)이 쓰는 색 이름이다. */
+
+/* ───────── 색 변수: KRDS 토큰을 묶은 것. 선명한 화면 모드와 시스템 설정(어두움)에서 바뀐다 ───────── */
+:root {
+  --hd-text: var(--krds-light-color-text-basic);
+  --hd-text-bolder: var(--krds-light-color-text-bolder);
+  --hd-text-subtle: var(--krds-light-color-text-subtle);
+  --hd-text-primary: var(--krds-light-color-text-primary);
+  --hd-border: var(--krds-light-color-border-gray-light);
+  --hd-border-strong: var(--krds-light-color-border-gray);
+  --hd-surface: var(--krds-light-color-surface-white);
+  --hd-surface-subtle: var(--krds-light-color-surface-gray-subtler);
+  --hd-surface-primary: var(--krds-light-color-surface-primary-subtler);
+  --hd-surface-danger: var(--krds-light-color-surface-danger-subtler);
+  --hd-primary: var(--krds-light-color-element-primary);
+  --hd-danger: var(--krds-light-color-element-danger);
+  --hd-on-primary: #ffffff;
+  --hd-bg: #ffffff;
+  --hd-strip: #1d2a3a;
+  --hd-strip-text: #e9eef3;
+  --hd-focus: #1344cf;
+
+  /* 해치 층(청록). 누리집(파랑)과 나뉘어 보이게 한다 */
+  --hc: #1c7581;
+  --hc-on: #ffffff;
+  --hc-soft: #e2f2f4;
+  --hc-line: #86c1c9;
+  --hc-card: #ffffff;
+  --hc-shadow: rgba(20, 55, 65, 0.18);
+  --hc-mark: #f2b705;
+
+  --hd-inner-w: 120rem;
+}
+
+[data-krds-mode="high-contrast"] {
+  --hd-text: var(--krds-high-contrast-color-text-basic);
+  --hd-text-bolder: var(--krds-high-contrast-color-text-bolder);
+  --hd-text-subtle: var(--krds-high-contrast-color-text-subtle);
+  --hd-text-primary: var(--krds-high-contrast-color-text-primary);
+  --hd-border: var(--krds-high-contrast-color-border-gray-light);
+  --hd-border-strong: var(--krds-high-contrast-color-border-gray);
+  --hd-surface: var(--krds-high-contrast-color-surface-white);
+  --hd-surface-subtle: var(--krds-high-contrast-color-surface-gray-subtler);
+  --hd-surface-primary: var(--krds-high-contrast-color-surface-primary-subtler);
+  --hd-surface-danger: var(--krds-high-contrast-color-surface-danger-subtler);
+  --hd-primary: var(--krds-high-contrast-color-element-primary);
+  --hd-danger: var(--krds-high-contrast-color-element-danger);
+  --hd-on-primary: #000000;
+  --hd-bg: #000000;
+  --hd-strip: #0b1016;
+  --hd-strip-text: #e9eef3;
+  --hd-focus: #ffd400;
+  --hc: #5cc4d0;
+  --hc-on: #00191c;
+  --hc-soft: #10292d;
+  --hc-line: #3c8a93;
+  --hc-card: #0d1418;
+  --hc-shadow: rgba(0, 0, 0, 0.6);
+}
+@media (prefers-color-scheme: dark) {
+  [data-krds-mode="theme"] {
+    --hd-text: var(--krds-high-contrast-color-text-basic);
+    --hd-text-bolder: var(--krds-high-contrast-color-text-bolder);
+    --hd-text-subtle: var(--krds-high-contrast-color-text-subtle);
+    --hd-text-primary: var(--krds-high-contrast-color-text-primary);
+    --hd-border: var(--krds-high-contrast-color-border-gray-light);
+    --hd-border-strong: var(--krds-high-contrast-color-border-gray);
+    --hd-surface: var(--krds-high-contrast-color-surface-white);
+    --hd-surface-subtle: var(--krds-high-contrast-color-surface-gray-subtler);
+    --hd-surface-primary: var(--krds-high-contrast-color-surface-primary-subtler);
+    --hd-surface-danger: var(--krds-high-contrast-color-surface-danger-subtler);
+    --hd-primary: var(--krds-high-contrast-color-element-primary);
+    --hd-danger: var(--krds-high-contrast-color-element-danger);
+    --hd-on-primary: #000000;
+    --hd-bg: #000000;
+    --hd-strip: #0b1016;
+    --hd-focus: #ffd400;
+    --hc: #5cc4d0;
+    --hc-on: #00191c;
+    --hc-soft: #10292d;
+    --hc-line: #3c8a93;
+    --hc-card: #0d1418;
+    --hc-shadow: rgba(0, 0, 0, 0.6);
+  }
+}
+
+
+/* ───────── 시연 표시 띠: 고정 머리 위에 한 줄 ───────── */
+:root {
+  --hd-strip-h: 3.6rem;
+}
+.hd-strip {
+  position: fixed;
+  z-index: 960;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--hd-strip-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: 0 1.6rem;
+  background: var(--hd-strip);
+  color: var(--hd-strip-text);
+  font-size: 1.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.hd-strip p {
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 서비스 이름과 슬로건(팀 피드백 5: 우리가 만든 서비스라는 것이 보이게) */
+.hd-strip__brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+}
+.hd-strip__brand b {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffd84d;
+}
+.hd-strip__brand span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hd-strip__meta a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+.rc-hd {
+  top: var(--hd-strip-h);
+}
+.rc-leftbar {
+  top: var(--hd-strip-h);
+  height: calc(100vh / var(--rc-zoom, 1) - var(--hd-strip-h));
+}
+#wrap {
+  padding-top: calc(var(--rc-header-h) + var(--hd-strip-h));
+}
+#contents {
+  scroll-margin-top: calc(var(--rc-header-h) + var(--hd-strip-h));
+}
+@media (max-width: 760px) {
+  .hd-strip__meta {
+    display: none;
+  }
+}
+
+/* 시연에서 막아 둔 링크를 눌렀을 때의 알림 */
+.hd-toast {
+  position: fixed;
+  z-index: 2000;
+  left: 50%;
+  bottom: calc(3rem + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  max-width: calc(100vw - 3.2rem);
+  padding: 1.2rem 1.8rem;
+  border-radius: 1rem;
+  background: #1d2a3a;
+  color: #ffffff;
+  font-size: 1.5rem;
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+/* 상세·분야 쪽 본문에서 쓰는 작은 틀 */
+.hd-lead {
+  font-size: 1.7rem;
+  color: var(--hd-text-subtle);
+  margin: 0 0 2.4rem;
+}
+.hd-section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 4rem 0 1.4rem;
+  color: var(--hd-text-bolder);
+}
+
+/* 1차 메뉴가 여섯이라(앞선 사이트는 넷) 머리 안 폭이 모자라면 메뉴를 접고 전체메뉴 단추를 보인다.
+   해치 대화창이 열려 머리가 좁아질 때(1024~1279 화면)와 글자를 크게 했을 때 걸린다. */
+@container rc-hd (max-width: 779px) {
+  .rc-gnb {
+    display: none;
+  }
+  .rc-hd__inner .rc-only-mobile {
+    display: inline-flex !important;
+  }
+  .rc-hd__inner .rc-hbtn--pink {
+    margin-left: auto;
+  }
+}
+
+/* 공유 메뉴(쪽 제목 오른쪽 공유 단추 아래) */
+.rc-share {
+  position: relative;
+  display: inline-flex;
+}
+.rc-share__menu {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 0.6rem);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 19rem;
+  padding: 0.6rem 0;
+  border: 1px solid var(--hd-border);
+  border-radius: 1.2rem;
+  background: var(--hd-surface);
+  box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.16);
+}
+.rc-share__menu button {
+  border: 0;
+  background: none;
+  color: var(--hd-text);
+  font: inherit;
+  font-size: 1.5rem;
+  text-align: left;
+  white-space: nowrap;
+  padding: 1rem 1.6rem;
+  cursor: pointer;
+}
+.rc-share__menu button:hover {
+  background: var(--hd-surface-subtle);
+}
